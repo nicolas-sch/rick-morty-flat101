@@ -1,0 +1,42 @@
+.episodeDetailCard {
+  background-color: #3daec3;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 800px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.episodeDetailCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.episodeTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.episodeDetails {
+  font-size: 1rem;
+  color: #bad85f;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.characterSection {
+  margin-top: 20px;
+}
+
+.characterSection h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.formContainer {
+  margin-top: 30px;
+}

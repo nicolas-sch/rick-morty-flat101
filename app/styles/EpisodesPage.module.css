@@ -1,0 +1,62 @@
+.episodeListContainer {
+  padding: 20px;
+  background-color: #3daec3;
+  margin-top: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.episodeListContainer h1 {
+  color: #bad85f;
+}
+
+.episodeList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.episodeItem {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 15px;
+}
+
+.episodeItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.episodeTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3daec3;
+  margin-bottom: 10px;
+}
+
+.episodeDescription {
+  font-size: 1rem;
+  color: #45bff8;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.episodeLink {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #bad85f;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.episodeLink:hover {
+  background-color: #3daec3;
+}
